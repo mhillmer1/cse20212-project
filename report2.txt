@@ -1,0 +1,59 @@
+Lab 7/8
+Project Report & Timeline
+James Ryan
+21 March 2016
+
+---------------------------------------------------------------
+PART 1: Evidence of Repository
+---------------------------------------------------------------
+Evidence that I checked in some code in my repository can be
+seen by visiting my GitHub repository at:
+
+https://github.com/jhankm1/cse20212-project
+
+---------------------------------------------------------------
+PART 2: Time Log
+---------------------------------------------------------------
+*Installing SDL2 on personal Linux/Mac machines: 1 hour
+*Reading LazyFoo's SDL2 tutorials: 4 hours
+*Troubleshooting student machine SDL issues (in lab): 1 hour
+*Learning to make sprites in Gimp: 1 hour
+*Making test sprites in Gimp: 2 hours
+*Making/modifying code for basic animation: 1 hour
+
+TOTAL TIME TO DATE: 10 hours
+
+---------------------------------------------------------------
+PART 3: Progress Report
+---------------------------------------------------------------
+A lot of time since our report last week has been spent with
+LazyFoo's tutorials. So far, most of us are up through and 
+fairly confident with the material in lesson 5. Additionally,
+a good amount of time was used learning how to make sprites 
+in various editors, testing editors, trying to make sprites,
+failing at making sprites, and, finally, succeeding at making
+sprites. 
+
+Since we are all in Air Force ROTC, we decided to 
+have some fun with our code demonstration for this week, and
+have a sprite of a pilot in a flight suit standing at parade
+rest. He comes to attention and saluting when the "up" arrow 
+is pressed, while pressing down (or any other key) causes the
+pilot to return to parade rest.
+
+We learned some fairly frustrating lessons this week. Firstly,
+we learned that the student machines will give an SDL error 
+("video device not available") when attempting to run programs
+after being logged in for too long. We think the login times 
+out. Exiting and SSH'ing in again fixes this issue. We also 
+discovered that creating sprites is a long and tedious process,
+and should be left to the more artistic members of our group. 
+Finally, we learned that SDL stacks requests in a sort of
+queue, and unless you specifically request it, the screen is 
+not cleared between events. Rather, more images are added to 
+the display. Thus, you must either have images with full 
+backgrounds (so that they completely cover the previous image),
+or you must specifically request that the screen be cleared in
+between loading new images. 
+
+---------------------------------------------------------------
