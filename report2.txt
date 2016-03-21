@@ -41,6 +41,13 @@ rest. He comes to attention and saluting when the "up" arrow
 is pressed, while pressing down (or any other key) causes the
 pilot to return to parade rest.
 
+The actual structure of this program is a modified version of
+LazyFoo's lesson 4. Internally, it is composed of a main 
+function that calls on member functions for each keystroke and
+operations such as quitting and closing. Overall, it is a very
+simplistic program, with the difficulty stemming from learning
+how to use SDL syntax and commands.
+
 We learned some fairly frustrating lessons this week. Firstly,
 we learned that the student machines will give an SDL error 
 ("video device not available") when attempting to run programs
